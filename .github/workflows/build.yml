@@ -36,7 +36,7 @@ jobs:
           java -jar BuildTools.jar --rev 1.8.8
           java -jar BuildTools.jar --rev 1.12.2
 
-      - name: Install Paper 1.8.8 dependencies
+      - name: Install Paper 1.8.8-1.18.2 dependencies
         run: |
           cd ~/buildtools
           git clone --single-branch --depth=1 --recurse-submodules -b ver/1.8.8 https://github.com/2lstudios-mc/FlamePaper.git
@@ -69,6 +69,7 @@ jobs:
           java -jar BuildTools.jar --disable-java-check --rev 1.16.5
           java -jar BuildTools.jar --rev 1.17.1
           java -jar BuildTools.jar --rev 1.18.1
+          java -jar BuildTools.jar --rev 1.18.2
 
       - name: Validate Gradle wrapper
         uses: gradle/wrapper-validation-action@v1
