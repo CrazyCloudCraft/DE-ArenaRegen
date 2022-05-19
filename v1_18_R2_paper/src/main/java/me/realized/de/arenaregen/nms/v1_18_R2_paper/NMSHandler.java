@@ -1,19 +1,19 @@
-package me.realized.de.arenaregen.nms.v1_8_R3_paper;
+package me.realized.de.arenaregen.nms.v1_18_R2_paper;
 
 import me.realized.de.arenaregen.nms.NMS;
-import net.minecraft.server.v1_8_R3.BlockPosition;
-import net.minecraft.server.v1_8_R3.Chunk;
-import net.minecraft.server.v1_8_R3.ChunkCoordIntPair;
-import net.minecraft.server.v1_8_R3.EnumSkyBlock;
-import net.minecraft.server.v1_8_R3.IBlockData;
-import net.minecraft.server.v1_8_R3.World;
+import net.minecraft.server.v1_18_R2.BlockPosition;
+import net.minecraft.server.v1_18_R2.Chunk;
+import net.minecraft.server.v1_18_R2.ChunkCoordIntPair;
+import net.minecraft.server.v1_18_R2.EnumSkyBlock;
+import net.minecraft.server.v1_18_R2.IBlockData;
+import net.minecraft.server.v1_18_R2.World;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
-import org.bukkit.craftbukkit.v1_8_R3.CraftChunk;
-import org.bukkit.craftbukkit.v1_8_R3.CraftWorld;
-import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
-import org.bukkit.craftbukkit.v1_8_R3.util.CraftMagicNumbers;
+import org.bukkit.craftbukkit.v1_18_R2.CraftChunk;
+import org.bukkit.craftbukkit.v1_18_R2.CraftWorld;
+import org.bukkit.craftbukkit.v1_18_R2.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers;
 import org.bukkit.entity.Player;
 
 public class NMSHandler implements NMS {
